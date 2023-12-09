@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd8577432a6ac4ff185de737bc336964, type: 3}
+  m_Name: C
+  m_EditorClassIdentifier: 
+  creature_name: Blob
+  icon: {fileID: 21300000, guid: e37bbefd02f894deaad7b3bf13286bf2, type: 3}
+  animator: {fileID: 0}
+  abilities:
+  - {fileID: 11400000, guid: 2dae64a26c73c4f7fb1fc389918073c7, type: 2}
+  base_health: 100
+  accuracy: 0.95
+  strength_effects: 
+  weakness_effects:
+  - {fileID: 0}
